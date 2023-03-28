@@ -6,7 +6,7 @@ postSlug: guide-retroactive-on-zksync-project
 featured: true
 draft: false
 tags: ["zkSync", "zkSync Era", "zkSync Lite", "airdrop", "retroactive"]
-ogImage: "../public/uploads/zksync/zksync-retro.jpg"
+ogImage: "https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/zksync-retro.jpg"
 description:
   "Cách làm retroactive dự án zkSync, Layer 2 Ethereum sử dụng công nghệ zkRollup EVM với nhiều cải tiến xử lý nhiều giao dịch trên 1 block"
 ---
@@ -36,27 +36,27 @@ ZkSync sử dụng giải pháp Zk Rollup. Mặt khác, các dự án phát tri�
 
 #### Bước 2: Connect ví Metamask & Bridge 
 
-<img alt="bridge orbiter" src="../public/uploads/zksync/1-bridge-to-zksync-network.jpg">
+<img alt="bridge orbiter" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/1-bridge-to-zksync-network.jpg">
 
 - Bridge từ Arbitrum sang Zksync Era (Mình ưu tiên, ae có thể tự xem các mạng khác để tối ưu chi phí)
 
 #### Bước 3: Swap DEX-DeFi
 
-<img alt="bridge orbiter" src="../public/uploads/zksync/4-swap-dex-syncswap.jpg">
+<img alt="bridge orbiter" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/4-swap-dex-syncswap.jpg">
 
 - [Mute DeFi](https://app.mute.io/swap)
 - [Syncswap DeFi](https://syncswap.xyz/)
 
 #### Bước 4: Deposit/Withdraw pool liquidity
 
-<img alt="deposit pool" src="../public/uploads/zksync/3-add-pool.jpg">
+<img alt="deposit pool" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/3-add-pool.jpg">
 
 - [Mute Pool](https://app.mute.io/pool)
 - [Syncswap Pool](https://syncswap.xyz/pool)
 
 #### Bước 5: Mint NFT [https://mintsquare.io/mint](https://mintsquare.io/mint)
 
-<img alt="mint nft" src="../public/uploads/zksync/6.1-mint-nft-zksync-era.jpg">
+<img alt="mint nft" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/6.1-mint-nft-zksync-era.jpg">
 
 > `Tương lai cập nhật thêm: Đừng quên tham gia nhóm để cập nhật news mới nhất`
 
@@ -69,17 +69,17 @@ ZkSync sử dụng giải pháp Zk Rollup. Mặt khác, các dự án phát tri�
 
 #### Bước 2: Connect ví Metamask & Bridge 
 
-<img alt="mint nft" src="../public/uploads/zksync/7-bridge-to-lite-zksync.jpg">
+<img alt="mint nft" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/7-bridge-to-lite-zksync.jpg">
 
 - Bridge từ Zksync Era sang Zksync Lite
 
 #### Bước 3: Mint NFT & Swap
 
-<img alt="mint nft" src="../public/uploads/zksync/8-upload-file-and-copy-CID.jpg">
+<img alt="mint nft" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/8-upload-file-and-copy-CID.jpg">
 
  Để mint NFT bạn upload file hình ảnh cần mint và copy mã CID tại Pinate Cloud: [https://www.pinata.cloud/](https://www.pinata.cloud/) 
 
-<img alt="mint nft" src="../public/uploads/zksync/9-pates-CID-mint-nft.jpg">
+<img alt="mint nft" src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/zksync/9-pates-CID-mint-nft.jpg">
 
  Sau khi có mã CID đã update lên đám mây, bạn truy cập vào [https://lite.zksync.io/account/nft](https://lite.zksync.io/account/nft)
 
