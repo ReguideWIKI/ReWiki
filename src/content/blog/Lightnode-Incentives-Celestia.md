@@ -1,7 +1,7 @@
 ---
 title: Hướng Dẫn Chạy Light nodes & Submit Task Trên Celestia
 author: Sat Naing
-pubDatetime: 2023-03-15T16:55:12.000+00:00
+pubDatetime: 2023-03-28T14:14:12.000+00:00
 postSlug: lightnode-Iicentives-celestia
 featured: true
 draft: false
@@ -78,7 +78,7 @@ cd $HOME
 rm -rf celestia-node 
 git clone https://github.com/celestiaorg/celestia-node.git 
 cd celestia-node/ 
-git checkout tags/v0.7.2 
+git checkout tags/v0.8.0-rc1 
 make build 
 make install 
 make cel-key 
