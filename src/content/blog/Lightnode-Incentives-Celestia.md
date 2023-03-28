@@ -94,22 +94,14 @@ celestia version
 celestia light init --p2p.network blockspacerace
 
 ```
-Output look like: 
 
-```
-$ celestia light init
-2022-12-19T21:45:24.591Z        INFO    node    nodebuilder/init.go:19  Initializing Light Node Store over '/root/.celestia-light-blockspacerace'
-2022-12-19T21:45:24.591Z        INFO    node    nodebuilder/init.go:50  Saving config   {"path": "/root/.celestia-light-blockspacerace/config.toml"}
-2022-12-19T21:45:24.592Z        INFO    node    nodebuilder/init.go:51  Node Store initialized
-```
-
-3.3. Start the light node
+3.3. Start the light node <strong>(NO RUN)</strong>
 Run the node with port <strong>9090</strong>. With your ip addresss: your VPS ip address:
 ```
 celestia light start --p2p.network blockspacerace --core.ip --core.grpc.port --gateway --gateway.addr <ip-address> --gateway.port 9090
 ```
 
-### 4. Setup & commandline WALLET Celestia-LightNode
+### 4. Setup & commandline WALLET Celestia-LightNode (OPTIONAL)
 
 4.1 Add new wallet
 ```
@@ -127,9 +119,9 @@ celestia light start --p2p.network blockspacerace --core.ip --core.grpc.port --g
 
 ### 5. Start Light Node
 
-5.1 Option 1 
+5.1 Option 1 (Recommended run with screen store)
 ```
-celestia light start --core.ip <ip-address> --keyring.accname <key_name> --gateway --gateway.addr <ip-address> --gateway.port <port> --p2p.network blockspacerace
+celestia light start --core.ip <strong><ip-address></strong> --keyring.accname <key_name> --gateway --gateway.addr <strong><ip-address></strong> --gateway.port 26659 --p2p.network blockspacerace
 ```
 5.2 Option 2 (Recommended)
 Run celestia on background
