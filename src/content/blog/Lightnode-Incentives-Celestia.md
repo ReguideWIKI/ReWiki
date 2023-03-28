@@ -121,7 +121,7 @@ celestia light start --p2p.network blockspacerace --core.ip --core.grpc.port --g
 
 5.1 Option 1 (Recommended run with screen store)
 ```
-celestia light start --core.ip $(curl -4 icanhazip.com)  --keyring.accname <key_name> --gateway --gateway.addr $(curl -4 icanhazip.com)  --gateway.port 26659 --p2p.network blockspacerace
+celestia light start --core.ip $(curl -4 icanhazip.com)  --keyring.accname my_celes_key --gateway --gateway.addr $(curl -4 icanhazip.com)  --gateway.port 26659 --p2p.network blockspacerace
 ```
 5.2 Option 2 (Recommended)
 Run celestia on background
