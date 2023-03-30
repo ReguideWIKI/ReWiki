@@ -11,7 +11,7 @@ if [[ "$VERCEL_GIT_COMMIT_REF" == "staging" || "$VERCEL_GIT_COMMIT_REF" == "mast
   exit 1;
 
 else
-  # Don't build
+  # Don't build space
   echo "🛑 - Build cancelled"
   exit 0;
 fi
