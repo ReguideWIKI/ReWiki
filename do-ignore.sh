@@ -9,8 +9,6 @@ if [[ "$VERCEL_GIT_COMMIT_REF" == "staging" || "$VERCEL_GIT_COMMIT_REF" == "mast
     echo "✅ - Build can proceed"
     npm run build
   # Success build reguide
-  exit 1;
-
 else
   # Don't build
   echo "🛑 - Build cancelled"
