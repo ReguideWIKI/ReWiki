@@ -33,7 +33,7 @@ Sử dụng cầu để chuyển token của bạn giữa các mạng khác nhau
 - Truy cập vào [Stargate](https://stargate.finance/transfer) và kết nối ví
 - Transfer token giữa các mạng khác nhau. (Khuyến nghị chuyển mạng ARB và Polygon vì phí rẻ)
 
-![Sử dụng bridge để chuyển token](/https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/layerzero/brigde.png)
+![Sử dụng bridge để chuyển token](https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/layerzero/1_stargate_brigde.png)
 
 #### 2.2 Stake STG để tham gia vào DAO:
 *Hiện tại không STG available để bạn stake, mình sẽ cập nhật hướng dẫn sau*
@@ -54,7 +54,7 @@ Sử dụng cầu để chuyển token của bạn giữa các mạng khác nhau
 
 ### 3 Tương tác với LayerZero x Circle bridge
 
-![Giao diện bridge](/https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/layerzero/2-4_circle_bridge.png)
+![Giao diện bridge](https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/layerzero/3_circle_bridge.png)
 1. Truy cập [website](https://usdcdemo.layerzero.network/bridge) và kết nối ví
 2. Сlaim token testnet
 3. Transfer tokens từ Avalanche Fuji sang Goerli
