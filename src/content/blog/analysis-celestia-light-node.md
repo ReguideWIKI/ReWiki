@@ -124,7 +124,7 @@ sudo journalctl -u celestia-lightd.service -f
 
 ### Part 3. Maintain High Node Uptime.
 
-<img src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/lightnode.png" alt="Light Node uptime" />
+<img src="https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/uptime-lightnode.jpg" alt="Light Node uptime" />
 
 The last normal task. Follow your machine uptime above 85%. (Stay machine uptime sync all block help celestia working good).
 
