@@ -6,7 +6,7 @@ postSlug: analysis-celestia-light-node
 featured: true
 draft: false
 tags: ["celestia", "reviews", "airdrop"]
-ogImage: "https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/lightnode.png"
+ogImage: "https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/lightnode-l.png"
 description:
   "Light clients conduct data availability sampling on the Data Availability network."
 ---
@@ -20,7 +20,7 @@ description:
 
 ## Understand Light Node before running a node
 
-![Light Node processing](https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/lightnode.png)
+![Light Node processing](https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/lightnode-l.png)
 
 The most common way to interact with the Celestia network is ensure data availability
 
@@ -124,7 +124,7 @@ sudo journalctl -u celestia-lightd.service -f
 
 ### Part 3. Maintain High Node Uptime.
 
-![Light Node uptime](https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/uptime-lightnode.jpg)
+![Light Node uptime](https://raw.githubusercontent.com/ReguideWIKI/ReWiki/master/public/uploads/celestia/uptime-lightnode-l.jpg)
 
 The last normal task. Follow your machine uptime above 85%. (Stay machine uptime sync all block help celestia working good).
 
