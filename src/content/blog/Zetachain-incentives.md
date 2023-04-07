@@ -1,38 +1,56 @@
-HƯỚNG DẪN THAM GIA INCENTIVIZED TESTNET CỦA DỰ ÁN ZETACHAIN
+---
+author: Sat Naing
+pubDatetime: 2023-03-28T17:22:00Z
+title: ZetaChain Incentive
+postSlug: adding-new-posts-in-Reguide-theme
+featured: false
+draft: false
+tags:
+  - docs
+  - incentive
+  - testnet
+  - node
+  - validator
+ogImage: ""
+description: fill the form
+---
 
+Here are some rules/recommendations, tips & ticks for joining zeta incentive
 
-Giới thiệu về ZetaChain
+### HƯỚNG DẪN ĐĂNG KÝ THAM GIA INCENTIVIZED TESTNET CỦA DỰ ÁN ZETACHAIN
 
-ZetaChain là blockchain L1 phi tập trung đầu tiên và duy nhất trên thế giới được tích hợp sẵn khả năng tương tác cross-chain, kết nối tất cả các blockchain, ngay cả các chain không có hợp đồng không thông minh như Bitcoin và Dogecoin. Với bộ công cụ Omnichain hoàn chỉnh của ZetaChain, các nhà phát triển có thể xây dựng các ứng dụng omnichain thực sự từ một điểm logic duy nhất và người dùng có thể truy cập tất cả tài sản, dữ liệu và thanh khoản của họ ở một nơi duy nhất một cách an toàn.
+## Giới thiệu về ZetaChain
 
-PHẦN 1: CÁC GIAI ĐOẠN TESTNET 
+    ZetaChain là blockchain L1 phi tập trung đầu tiên và duy nhất trên thế giới được tích hợp sẵn khả năng tương tác cross-chain, kết nối tất cả các blockchain, ngay cả các chain không có hợp đồng không thông minh như Bitcoin và Dogecoin. Với bộ công cụ Omnichain hoàn chỉnh của ZetaChain, các nhà phát triển có thể xây dựng các ứng dụng omnichain thực sự từ một điểm logic duy nhất và người dùng có thể truy cập tất cả tài sản, dữ liệu và thanh khoản của họ ở một nơi duy nhất một cách an toàn.
 
-có tổng cộng 4 giai đoạn testnet:
+## PHẦN 1: CÁC GIAI ĐOẠN TESTNET
 
-giai đoạn 1: Thiết lập Validator và tạo mạng
+# Có tổng cộng 4 giai đoạn testnet:
 
-giai đoạn 2: Kiểm tra độ mỏi (stress testing) và kịch bản thử nghiệm (scenario testing)
+- giai đoạn 1: Thiết lập Validator và tạo mạng
 
-giai đoạn 3: Thử nghiệm khả năng chiến đấu tập trung vào bảo mật
+- giai đoạn 2: Kiểm tra độ mỏi (stress testing) và kịch bản thử nghiệm (scenario testing)
 
-giai đoạn 4: Bảo trì và lập kế hoạch testnet dài hạn
+- giai đoạn 3: Thử nghiệm khả năng chiến đấu tập trung vào bảo mật
 
-PHẦN 2: ĐĂNG KÝ INCENTIVIZED TESTNET
+- giai đoạn 4: Bảo trì và lập kế hoạch testnet dài hạn
 
-Để tham gia vào mạng testnet c được khuyến khích, vui lòng điền vào biểu mẫu này: https://metaform.xyz/user/64107568a64e4b8d805296dc . Nếu bạn được chọn, thì ZETACHAIN sẽ liên hệ với các bước tiếp theo để bắt đầu.
+## PHẦN 2: ĐĂNG KÝ INCENTIVIZED TESTNET
 
-Lưu ý rằng do một số hạn chế nhất định, ZETACHAIN sẽ không thưởng cho các thực thể có trụ sở tại Hoa Kỳ nếu họ đã tham gia vào mạng testnet này. Xác minh ID/KYC sẽ được yêu cầu đối với tất cả những người tham gia đủ điều kiện nhận phần thưởng trong chương trình này.
+    Để tham gia vào mạng testnet c được khuyến khích, vui lòng điền vào biểu mẫu này: https://metaform.xyz/user/64107568a64e4b8d805296dc . Nếu bạn được chọn, thì ZETACHAIN sẽ liên hệ với các bước tiếp theo để bắt đầu.
 
-sẽ có guide cho mọi người khi incentivized bắt đầu: reguide.wiki
+    Lưu ý rằng do một số hạn chế nhất định, ZETACHAIN sẽ không thưởng cho các thực thể có trụ sở tại Hoa Kỳ nếu họ đã tham gia vào mạng testnet này. Xác minh ID/KYC sẽ được yêu cầu đối với tất cả những người tham gia đủ điều kiện nhận phần thưởng trong chương trình này.
 
-CHÚC MỌI NGƯỜI ĐƯỢC ZETA CHỌN NHÉ!!!
+    sẽ có guide cho mọi người khi incentivized bắt đầu: reguide.wiki
 
-GOODLUCK EVERYONE
+# CHÚC MỌI NGƯỜI ĐƯỢC ZETA CHỌN NHÉ!!!
 
-website: https://www.zetachain.com/
+# GOODLUCK EVERYONE
 
-twitter: https://twitter.com/zetablockchain
+# Website: https://www.zetachain.com/
 
-telegram: https://t.me/zetachainofficial
+# twitter: https://twitter.com/zetablockchain
 
-discord: https://discord.com/invite/zetachain
+# telegram: https://t.me/zetachainofficial
+
+# discord: https://discord.com/invite/zetachain
