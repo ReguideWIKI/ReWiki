@@ -15,7 +15,7 @@ ogImage: ""
 description: fill the form
 ---
 
-Here are some rules/recommendations, tips & ticks for joining zeta incentive
+Dưới đây là một số quy tắc/khuyến nghị, mẹo và thủ thuật để tham gia khuyến khích zeta
 
 ### HƯỚNG DẪN ĐĂNG KÝ THAM GIA INCENTIVIZED TESTNET CỦA DỰ ÁN ZETACHAIN
 
