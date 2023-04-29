@@ -23,7 +23,7 @@ Một series Web3 Shark Tank mang tính giáo dục và giải trí. Với 6 th�
 
 ### SuiPad Shield Insurance
 
-Một tính năng bảo hiểm sáng tạo để bảo vệ vốn gốc của người tham gia, phù hợp với rủi ro của mọi người
+Một tính năng bảo hiểm sáng tạo để bảo vệ vốn gốc của người tham gia, phù hợp với rủi ro của mọi người.
 
 ## Quy trình tuyển chọn của SuiPad
 
