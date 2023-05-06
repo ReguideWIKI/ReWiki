@@ -130,5 +130,6 @@ The last normal task. Follow your machine uptime above 85%. (Stay machine uptime
 
 Check it out ID lightnode: [https://tiascan.com/light-node/12D3KooWSpqdd5Y1kjpaqp6wstsyiDhb52dLFNjdVv4LGDyFBEgq](https://tiascan.com/light-node/12D3KooWSpqdd5Y1kjpaqp6wstsyiDhb52dLFNjdVv4LGDyFBEgq)
 
+<strong>I'm request change new ID machine LIGHTNODE (UPTIME 99.9%: [https://tiascan.com/light-node/12D3KooWQvYU7hpn1U7SnsAKzA8SM8mxu7aFakB8REP8Yuy8R3HR](https://tiascan.com/light-node/12D3KooWQvYU7hpn1U7SnsAKzA8SM8mxu7aFakB8REP8Yuy8R3HR)</strong>
 
 <strong>Other bonus task review will be update soon when I have done ...</strong>
