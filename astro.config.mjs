@@ -5,10 +5,10 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
-import storyblok from '@storyblok/astro';
-import { loadEnv } from 'vite';
+import storyblok from "@storyblok/astro";
+import { loadEnv } from "vite";
 
-const env = loadEnv("", process.cwd(), 'STORYBLOK');
+const env = loadEnv("", process.cwd(), "STORYBLOK");
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -23,11 +23,11 @@ export default defineConfig({
     storyblok({
       accessToken: env.STORYBLOK_TOKEN,
       components: {
-        blogPost: 'storyblok/BlogPost',
+        // blogPost: 'storyblok/BlogPost',
       },
       apiOptions: {
         // Choose your Storyblok space region
-        region: 'us', // optional,  or 'eu' (default)
+        region: "us", // optional,  or 'eu' (default)
       },
     }),
   ],

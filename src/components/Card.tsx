@@ -1,3 +1,4 @@
+import React from "react";
 import Datetime from "./Datetime";
 import type { BlogFrontmatter } from "@content/_schemas";
 
@@ -8,7 +9,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, description } = frontmatter;
+  const { title, date, description } = frontmatter;
   return (
     <li className="my-6">
       <a
@@ -25,7 +26,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           </h3>
         )}
       </a>
-      <Datetime datetime={pubDatetime} />
+      <Datetime datetime={date} />
       <p>{description}</p>
     </li>
   );
