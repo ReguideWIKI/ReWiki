@@ -1,58 +1,94 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
-import Posts from "@layouts/Posts.astro";
-import PostDetails from "@layouts/PostDetails.astro";
-import getSortedPosts from "@utils/getSortedPosts";
-import getPageNumbers from "@utils/getPageNumbers";
-import slugify from "@utils/slugify";
-import { SITE } from "@config";
-
-export interface Props {
-  post: CollectionEntry<"blog">;
-}
+import { useStoryblokApi } from "@storyblok/astro";
+import StoryblokComponent from "@storyblok/astro/StoryblokComponent.astro";
+import { renderRichText } from "@storyblok/js";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Tag from "@components/Tag.astro";
+import Datetime from "@components/Datetime";
+import Posts from "@storyblok/layouts/Posts.astro";
+import PostDetails from "@storyblok/layouts/PostDetails.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  const sbApi = useStoryblokApi();
 
-  const postResult = posts.map(post => ({
-    params: { slug: slugify(post.data) },
-    props: { post },
-  }));
+  const { data } = await sbApi.get("cdn/stories", {
+    content_type: "blogPost",
+    version: import.meta.env.DEV ? "draft" : "published",
+  });
 
-  const pagePaths = getPageNumbers(posts.length).map(pageNum => ({
-    params: { slug: String(pageNum) },
-  }));
+  const stories = Object.values(data.stories);
 
-  return [...postResult, ...pagePaths];
+  return stories.map((story: any) => {
+    return {
+      params: { slug: story.slug },
+    };
+  });
 }
 
+const sbApi = useStoryblokApi();
 const { slug } = Astro.params;
-const { post } = Astro.props;
 
-const posts = await getCollection("blog");
+const { data } = await sbApi.get(`cdn/stories/${slug}`, {
+  version: import.meta.env.DEV ? "draft" : "published",
+});
 
-const sortedPosts = getSortedPosts(posts);
+const story = data.story;
 
-const totalPages = getPageNumbers(sortedPosts.length);
-
-const currentPage =
-  slug && !isNaN(Number(slug)) && totalPages.includes(Number(slug))
-    ? Number(slug)
-    : 0;
-const lastPost = currentPage * SITE.postPerPage;
-const startPost = lastPost - SITE.postPerPage;
-
-const paginatedPosts = sortedPosts.slice(startPost, lastPost);
+/*
+ * Params for storyblock
+ * Declare here
+ */
+const { name, published_at, tag_list } = data.story;
+const renderedRichText = renderRichText(story.content.content);
+const ogUrl = new URL(
+  story.content.ogImage ? story.content.ogImage : `${story.content.title}.png`,
+  Astro.url.origin
+).href;
 ---
 
-{
-  post ? (
-    <PostDetails post={post} />
-  ) : (
-    <Posts
-      posts={paginatedPosts}
-      pageNum={currentPage}
-      totalPages={totalPages.length}
-    />
-  )
-}
+<Layout
+  title={story.content.title}
+  description={story.content.description}
+  ogImage={ogUrl}
+>
+  <Header />
+  <div class="mx-auto flex w-full max-w-4xl justify-start px-2">
+    <button
+      class="focus-outline mt-8 mb-2 flex hover:opacity-75"
+      onclick="history.back()"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+        ><path
+          d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+        ></path>
+      </svg><span>Go back</span>
+    </button>
+  </div>
+  <main id="main-content">
+    <h1 class="post-title">{name}</h1>
+    <Datetime datetime={published_at} size="lg" className="my-2" />
+
+    <article id="article" role="article" class="prose mx-auto mt-8 max-w-4xl">
+      <div set:html={renderedRichText} />
+    </article>
+
+    <ul class="tags-container">
+      {tag_list.map(tag => <Tag name={tag} />)}
+    </ul>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    @apply mx-auto w-full max-w-4xl px-4 pb-12;
+  }
+  .post-title {
+    @apply text-2xl font-semibold text-skin-accent;
+  }
+  .tags-container {
+    @apply my-8;
+  }
+</style>

@@ -1,0 +1,1021 @@
+{
+  "stories": [
+    {
+      "name": "Tổng Quan Dự Án Suipad Launchpad Tier 1 - Sui Ecosytem",
+      "created_at": "2023-06-06T07:29:23.304Z",
+      "published_at": "2023-06-06T07:40:24.313Z",
+      "id": 145824,
+      "uuid": "856d05e9-ca63-4f2f-97da-0bd9747e8791",
+      "content": {
+        "_uid": "64c03c48-2c14-46a3-b380-6938a3f2cfd5",
+        "title": "Tổng Quan Dự Án Suipad Launchpad Tier 1 - Sui Ecosytem",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Tổng quan SuiPad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "SuiPad là Launchpad hàng đầu cho các dự án cấp 1 trên Sui, chuỗi khối lớp 1 không được phép đầu tiên phục vụ cho hàng tỷ người dùng tiếp theo trong web3. Với tư cách là Đối tác Launchpad chính thức của MystenLabs",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Các tính năng chính của SuiPad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Sui Tank",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Một series Web3 Shark Tank mang tính giáo dục và giải trí. Với 6 thành viên tham gia hội thảo VC sẵn sàng lật tẩy các chủ dự án từ đầu để những người tham gia có thể nhìn thấy vấn đề thực sự đằng sau mỗi dự án, loại bỏ lớp ngụy trang mà hầu hết các dự án có xu hướng làm hiện nay.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "SuiPad Shield Insurance",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Một tính năng bảo hiểm sáng tạo để bảo vệ vốn gốc của người tham gia, phù hợp với rủi ro của mọi người.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Quy trình tuyển chọn của SuiPad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Người ủng hộ (vc, đối tác, cố vấn)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Tài chính (tỷ lệ đốt, gây quỹ, doanh thu dự kiến)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Sản phẩm (điểm đau, sản phẩm phù hợp với thị trường, đổi mới, DAU, MAU)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Kinh tế (mô hình doanh thu)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Tokenomics (cấu trúc, lịch trình trao quyền, nguồn cung tuần hoàn ban đầu, tỷ lệ lạm phát)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Marketing (chiến lược thâm nhập thị trường, chiến lược tăng trưởng)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Cộng đồng (thống kê, tham gia, khu vực)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Kế hoạch niêm yết (Dex, Cex)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Thanh khoản (tổng thanh khoản so với áp lực bán)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Nhà tạo lập thị trường",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Pháp lý (KYC, AML)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Stake &amp; Tier trong Suipad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Hệ thống SuiPad Tier là một trong những cốt lõi của Nền tảng SuiPad, đảm bảo mức độ cam kết nhất định và cho phép các nhà đầu tư tham gia vào dự án IDO.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "SuiPad Staking &amp; Tiering luôn song hành với nhau. Để đủ điều kiện cho một cấp cụ thể, bạn phải đặt cược mã thông báo trên SuiPad. Bây giờ, hãy đi sâu vào việc đặt cược mã thông báo:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Có 6 tier, cụ thể là:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Ruby: 2.500 SUIP staked",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Sapphire: 5.000 SUIP staked",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Ngọc lục bảo: 10.000 SUIP staked",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Kim cương: 30.000 SUIP staked",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Vương miện: 50.000 SUIP staked",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Sui: 100.000 SUIP staked",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Roadmap Suipad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Q4 2022",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Ra mắt nền tảng cơ sở: trang web mới, giao diện người dùng Launchpad có thể giao dịch",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Xây dựng cộng đồng",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Tiếp thị đại chúng",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Q1 2023",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "SuiPad trên Tesnet",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Tích hợp nhiều ví",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Testnet IDO cho nhiều dự án trên Sui",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Đẩy mạnh tiếp thị liên tục và xây dựng cộng đồng",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Q2 năm 2023",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "SuiPad trên Mainnet",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "IDO $SUIP",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Staking pool và SuiPad Shield",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "IDO đợt 1 (4 dự án)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Q3 năm 2023",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Sản xuất SuiTank mùa đầu tiên (8 Tập)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "SuiTank mùa đầu tiên lên sóng",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "IDO đợt 2 (8 dự án)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Nhóm đầu tiên của Chương trình ươm tạo SuiPad",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Q4 2023",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Đội quân đầu tiên của Học viện SuiPad",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Đoàn hệ thứ 2 của Vườn ươm SuiPad",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "IDO đợt 3 (8 dự án)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Sản xuất SuiTank (mùa thứ hai)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Follow Social Suipad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Twitter: ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "https://twitter.com/SuiPadxyz",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "https://twitter.com/SuiPadxyz",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            },
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "underline"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Discord: ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "discord.gg/suipad",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://discord.gg/suipad",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            },
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "underline"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "ogImage": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "featured": true,
+        "component": "blogPost",
+        "datepublish": "2023-06-06 14:29",
+        "description": "SuiPad là Launchpad hàng đầu cho các dự án cấp 1 trên Sui, chuỗi khối lớp 1 không được phép đầu tiên phục vụ cho hàng tỷ người dùng tiếp theo trong web3. Với tư cách là Đối tác Launchpad chính thức của MystenLabs",
+        "_editable": "&lt;!--#storyblok#{\"name\": \"blogPost\", \"space\": \"1008332\", \"uid\": \"64c03c48-2c14-46a3-b380-6938a3f2cfd5\", \"id\": \"145824\"}--&gt;"
+      },
+      "slug": "tong-quan-du-an-suipad-launchpad-tier-1-sui-ecosytem",
+      "full_slug": "tong-quan-du-an-suipad-launchpad-tier-1-sui-ecosytem",
+      "sort_by_date": null,
+      "position": 0,
+      "tag_list": ["Example tag", "New Tag"],
+      "is_startpage": false,
+      "parent_id": null,
+      "meta_data": null,
+      "group_id": "adce22b1-9e21-4fe2-b6b1-4c1e903ee2df",
+      "first_published_at": "2023-06-06T07:31:22.153Z",
+      "release_id": null,
+      "lang": "default",
+      "path": null,
+      "alternates": [],
+      "default_full_slug": null,
+      "translated_slugs": null
+    },
+    {
+      "name": "test post",
+      "created_at": "2023-06-01T08:31:11.490Z",
+      "published_at": "2023-06-06T07:28:43.679Z",
+      "id": 136987,
+      "uuid": "45870537-8b4b-437d-be5c-e29b5887eb90",
+      "content": {
+        "_uid": "af570c2a-02da-46d5-b4f4-c2fad0036041",
+        "draft": false,
+        "title": "Title tesst posst",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Welcome to the Ultimate Tutorial Series for Astro!",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "In this tutorial series, you will learn how to build a full-blown, multilingual website using Storyblok and Astro. Taking it one small step at a time, we will start with the fundamental integration of Storyblok in Astro and then gradually add more and more funct",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "ogImage": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "featured": false,
+        "component": "blogPost",
+        "datepublish": "",
+        "description": "Title Storyblock fuckiiing",
+        "_editable": "&lt;!--#storyblok#{\"name\": \"blogPost\", \"space\": \"1008332\", \"uid\": \"af570c2a-02da-46d5-b4f4-c2fad0036041\", \"id\": \"136987\"}--&gt;"
+      },
+      "slug": "test-post",
+      "full_slug": "test-post",
+      "sort_by_date": null,
+      "position": 0,
+      "tag_list": ["New Tag", "Example tag"],
+      "is_startpage": false,
+      "parent_id": 0,
+      "meta_data": null,
+      "group_id": "84fb7428-a25a-4493-9a91-f8cb147f1b04",
+      "first_published_at": "2023-06-01T08:31:26.217Z",
+      "release_id": null,
+      "lang": "default",
+      "path": null,
+      "alternates": [],
+      "default_full_slug": null,
+      "translated_slugs": null
+    }
+  ],
+  "cv": 1686037224,
+  "rels": [],
+  "links": []
+}
