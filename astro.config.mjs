@@ -22,7 +22,6 @@ export default defineConfig({
       },
     }),
     react(),
-    sitemap(),
     storyblok({
       accessToken: env.STORYBLOK_TOKEN,
       components: {
