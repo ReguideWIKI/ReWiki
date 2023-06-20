@@ -7,10 +7,13 @@ import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 import storyblok from "@storyblok/astro";
 import { loadEnv } from "vite";
+import vercel from "@astrojs/vercel/serverless";
 
 const env = loadEnv("", process.cwd(), "STORYBLOK");
 // https://astro.build/config
 export default defineConfig({
+  output: "server",
+  adapter: vercel(),
   site: SITE.website,
   integrations: [
     tailwind({

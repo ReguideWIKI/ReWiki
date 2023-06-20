@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@astrojs/rss": "^2.3.0",
+    "@astrojs/vercel": "^3.5.0",
     "@resvg/resvg-js": "^2.4.1",
     "@storyblok/astro": "^2.3.4",
     "astro": "^2.1.3",
